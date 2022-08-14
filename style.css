@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:ital,wght@0,400;1,300;1,400&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(#ff8000,#ffff,#008000);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+
+
+
+}
+
+.flag {
+    padding-top: 80px;
+}
+
+.orange {
+    height: 100px;
+    width: 500px;
+    background-color: #ff8000;
+}
+
+.white {
+    height: 100px;
+    width: 500px;
+    background-color: #ffff;
+
+
+}
+
+.flag-image {
+    height: 100px;
+    width: 100px;
+
+    margin-left: 200px;
+}
+
+.green {
+    height: 100px;
+    width: 500px;
+    background-color: #008000;
+}
+
+.flag-stand {
+    height: 650px;
+    width: 20px;
+    background-color: rgb(243, 193, 86);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin: auto;
+
+}
+
+.msg {
+    background-color: rgb(165, 227, 217);
+
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+    border: 2px dotted;
+    margin: auto;
+
+}
+
+.h {
+    color: #ff8000
+}
+
+.I {
+    color: #ffff;
+}
+
+.d {
+    color: #008000;
+}
+
+
+/*Media*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .orange,
+    .white,
+    .green {
+        width: 350px;
+        height: 75px;
+    }
+
+    .flag-image {
+        height: 75px;
+        width: 75px;
+        margin-left: 137.5px;
+
+    }
+
+    .flag-stand {
+        height: 600px;
+
+
+    }
+}
